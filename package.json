@@ -1,25 +1,13 @@
 {
-  "name": "simpleenergy",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.7.2",
-    "socket.io": "^4.8.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.7"
-  }
+    "name": "base64id"
+  , "version": "2.0.0"
+  , "license": "MIT"
+  , "description": "Generates a base64 id"
+  , "author": "Kristian Faeldt <faeldt_kristian@cyberagent.co.jp>"
+  , "repository": {
+        "type": "git"
+      , "url": "https://github.com/faeldt/base64id.git"
+   }
+  , "main": "./lib/base64id.js"
+  , "engines": { "node": "^4.5.0 || >= 5.9" }
 }
